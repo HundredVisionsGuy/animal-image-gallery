@@ -1,0 +1,16 @@
+/* styles.css
+    Apply general styles to the entire
+    document
+*/
+
+/* TODO
+ *  Use the adobe color mixer to select
+    a color combination for the body
+    Make sure it passes the Color Contrast tool with at least a AA rating
+*/
+
+body {
+    background-color: #B3855D;
+    color: #142326;
+    font-family: 'Ubuntu', sans-serif;
+}
