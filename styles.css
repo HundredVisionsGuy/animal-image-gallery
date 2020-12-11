@@ -13,4 +13,24 @@ body {
     background-color: #B3855D;
     color: #142326;
     font-family: 'Ubuntu', sans-serif;
+    font-size: initial;
+}
+article#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+    margin: 0 auto;
+}
+figure {
+    width: 200px;
+    background-color: #7D8C45;
+    padding: .7em;
+    border: .3em solid #142326;
+    margin: .5rem;
+}
+/* set image to  match width of the
+    figure */
+figure img {
+    width: 100%;
+    max-width: 100%;
 }
